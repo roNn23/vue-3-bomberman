@@ -1,28 +1,14 @@
 <template>
-  <button @click="showHelloWorld">
-    Click for Hello World!
-  </button>
-  <div v-if="state.clicked">
-    <h1>Hello World 💣</h1>
-  </div>
+  <Board boardRowItems="10" />
 </template>
 
 <script>
-import { reactive, computed } from 'vue';
+import Board from './Board.vue'
 export default {
   setup() {
-    const state = reactive({
-      clicked: false
-    });
-
-    const showHelloWorld = () => {
-      state.clicked = true;
-    };
-
-    return {
-      state,
-      showHelloWorld
-    };
+  },
+  components: {
+    Board
   }
 };
 </script>
