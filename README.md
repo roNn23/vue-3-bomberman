@@ -10,3 +10,4 @@ Let's build bomberman in Vue 3 👱‍♂️💣
 - Video: [Hello Vue 3: A First Look at Vue 3 & the Composition API](https://www.youtube.com/watch?v=UAgO2JanN9Y)
 - Setup development environment [vue-next-webpack-preview](https://github.com/vuejs/vue-next-webpack-preview)
 - Blogpost: [Vue 3: Start Using it Today](https://www.vuemastery.com/blog/vue-3-start-using-it-today/)
+- [Composition API RFC](https://vue-composition-api-rfc.netlify.com/#summary)
